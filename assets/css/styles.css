@@ -7,6 +7,11 @@
     --secondary-color: #171100;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -15,7 +20,6 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
     background: #fffcf4;
-    scroll-behavior: smooth;
 }
 
 /* Common */
