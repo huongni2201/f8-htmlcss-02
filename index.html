@@ -16,7 +16,7 @@
     </head>
     <body>
         <!-- Header -->
-        <header class="header">
+        <header class="header fixed">
             <div class="content">
                 <div class="body">
                     <!-- Logo -->
@@ -31,16 +31,16 @@
                         <!-- Nav -->
                         <ul class="list">
                             <li class="item">
-                                <a href="" class="item-link">Home</a>
+                                <a href="#home" class="item-link">Home</a>
                             </li>
                             <li class="item">
-                                <a href="" class="item-link">Courses</a>
+                                <a href="#courses" class="item-link">Courses</a>
                             </li>
                             <li class="item">
-                                <a href="" class="item-link">Pricing</a>
+                                <a href="#pricing" class="item-link">Pricing</a>
                             </li>
                             <li class="item">
-                                <a href="" class="item-link">Reviews</a>
+                                <a href="#reviews" class="item-link">Reviews</a>
                             </li>
                         </ul>
                     </nav>
@@ -53,9 +53,9 @@
             </div>
         </header>
 
-        <main style="height: 3000px" id="home">
+        <main id="home">
             <!-- Hero -->
-            <div class="hero">
+            <div id="courses" class="hero">
                 <div class="content">
                     <div class="main-content">
                         <div class="body">
@@ -137,6 +137,20 @@
                                         <span>Watch Video</span>
                                     </button>
                                 </div>
+
+                                <p class="desc desc-bottom">
+                                    Recent engagement
+                                </p>
+                                <div class="desc stat">
+                                    <div class="stat-left">
+                                        <strong>50K</strong>
+                                        <span>Students</span>
+                                    </div>
+                                    <div class="stat-right">
+                                        <strong>70+</strong>
+                                        <span>Courses</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -144,7 +158,7 @@
             </div>
 
             <!-- Popular -->
-            <div class="popular">
+            <div id="pricing" class="popular">
                 <div class="content">
                     <!-- Header -->
                     <div class="popular-top">
@@ -301,7 +315,7 @@
             </div>
 
             <!-- Features -->
-            <div class="features">
+            <div id="reviews" class="features">
                 <div class="content">
                     <div class="body">
                         <div class="images">
@@ -363,16 +377,18 @@
                             Read our regular travel blog and know the latest
                             update of tour and travel
                         </p>
+
+                        <!-- Blog content -->
                         <div class="blog-content">
                             <!-- Item 1 -->
                             <div class="item">
                                 <img
-                                    src="./assets/img/hero-guy.svg"
+                                    src="./assets/img/blog-img-1.svg"
                                     alt=""
                                     class="thumb"
                                 />
-                                <span class="date">21 November 2021</span>
                                 <div class="info">
+                                    <span class="date">21 November 2021</span>
                                     <h3 class="title">
                                         How to become a pro web designer in 2022
                                         and get remot job?
@@ -387,8 +403,8 @@
                                     alt=""
                                     class="thumb"
                                 />
-                                <span class="date">21 November 2021</span>
                                 <div class="info">
+                                    <span class="date">21 November 2021</span>
                                     <h3 class="title">
                                         How to become a pro web designer in 2022
                                         and get remot job?
@@ -403,8 +419,8 @@
                                     alt=""
                                     class="thumb"
                                 />
-                                <span class="date">21 November 2021</span>
                                 <div class="info">
+                                    <span class="date">21 November 2021</span>
                                     <h3 class="title">
                                         How to become a pro web designer in 2022
                                         and get remot job?
@@ -413,12 +429,104 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Dots -->
+                        <div class="dots">
+                            <span class="dot"></span>
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
 
         <!-- Footer -->
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="content">
+                <div class="row">
+                    <!-- Column 1 -->
+                    <div class="column">
+                        <img src="./assets/img/footer-logo.svg" alt="Lesson." />
+                        <p class="desc">
+                            Need to help for your dream Career? trust us. With
+                            Lesson, study becomes a lot easier with us.
+                        </p>
+                        <div class="socials">
+                            <a href="#!" class="icon"
+                                ><img
+                                    src="./assets/img/Social.svg"
+                                    alt="social"
+                            /></a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="column">
+                        <h3 class="title">Company</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">About Us</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Features</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Our Pricing</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Latest News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="column">
+                        <h3 class="title">Support</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">FAQ's</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Terms & Conditions</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Privacy Policy</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="column">
+                        <h3 class="title">Address</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">
+                                    <strong>Location: </strong> 27 Division St,
+                                    New York, NY 10002, USA
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#!"
+                                    ><strong>Email: </strong> email@gmail.com</a
+                                >
+                            </li>
+                            <li class="item">
+                                <a href="#!"
+                                    ><strong>Phone: </strong> + 000 1234 567
+                                    890</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
